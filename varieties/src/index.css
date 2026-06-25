@@ -1,0 +1,343 @@
+.headline{
+    height: 600px;
+    width: 100%;
+    border: 1px solid black;
+     background: url('./assets/bgimage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headline h3{
+    margin-top: 200px;
+    font-size: 80px; 
+    color: white;
+}
+
+.headline button{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.navbar{
+    height: 50px;
+    
+}
+
+.contain{
+    margin-top: 100px;
+}
+
+.headline2 h3{
+    font-size: 50px;
+}
+
+.content2 h2{
+    font-size: 58px;
+}
+
+.content2 h4{
+    font-style:normal;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.instalink p{
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 100px;
+}
+
+.instalink a{
+    font-size: 40px;
+    font-weight: 100px;
+    text-decoration: none;
+    color: black;
+}
+
+.instalink{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.model-images img{
+    height: 250px;
+    width: 200px;
+
+}
+
+.jumbotron{
+    height: 200px;
+    width: 100%;
+    padding: 70px;
+    text-align: center;
+    background-color: gainsboro;
+    margin-top: 70px;
+}
+
+.container3{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(2, 54, 37);
+    color: white;
+}
+
+.pay img{
+    margin-left: 10px;
+}
+
+.pay{
+    border-top: 1px solid rgba(220, 220, 220, 0.521);
+    padding: 50px 500px;
+}
+ 
+.pay p{
+    font-size: 12px;
+    margin: 20px 40px;
+}
+
+.about_intro{
+    height: 500px;
+    background: url('../public/assets/about-bg.jpg');
+    background-size: cover;
+    padding: 100px;
+    color: white;
+    font-size: 80px;
+}
+
+.about_intro h3{
+    font-size: 80px;
+     font-family: 'Poppins', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.about_details{
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Poppins', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+
+.about-values h3{
+text-align: center;
+}
+
+.about-container div{
+    width: 350px;
+}
+
+/* #email{
+    margin-left: 105px;
+}
+#name{
+    margin-left: 100px;
+}
+#password{
+    margin-left: 75px;
+}
+#repassword{
+    margin-left: 50px;
+} */
+
+.register input{
+    margin-top: 25px;
+    height: 40px;
+    width: 400px;
+}
+
+.register{
+    padding: 200px 500px;
+
+}
+.register button{
+    margin: 20px 100px;
+    width: 200px;
+}
+.register h3{
+    margin-left: 100px;
+}
+
+.register a{
+    color: white;
+    text-decoration: none;
+}
+
+.login input{
+    margin-top: 25px;
+    height: 40px;
+    width: 400px;
+}
+
+.login{
+    padding: 200px 500px;
+
+}
+.login button{
+    margin: 20px 100px;
+    width: 200px;
+}
+.login h3{
+    margin-left: 150px;
+}
+
+.login .forget{
+color: grey;
+}
+
+.login .create{
+margin-left: 150px;
+color: grey;
+}
+
+.login .button{
+    color: white;
+    text-decoration: none;
+}
+
+.cart-count{
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: yellow;
+    color: red;
+    font-size: 10px;
+    padding: 2px 6px;
+}
+
+.cart-details p{
+  position: relative;
+  bottom: 10px;
+}
+
+.quantity{
+    position: relative;
+    bottom: 30px;
+}
+
+.cart-button{
+    position: relative;
+    bottom: 30px;
+}
+.cart{
+    margin-top: 200px;
+}
+
+footer p {
+  margin-bottom: 8px;
+}
+
+footer i {
+  cursor: pointer;
+}
+
+footer i:hover {
+  transform: scale(1.1);
+}
+
+
+ 
+
+@media (max-width: 768px) {
+  html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+  .navbar{
+    background-color: #f8f9fa;
+    width: 100%;
+    padding: 10px 15px;
+}
+
+.navbar .container-fluid{
+    width: 100%;
+}
+  .navbar-brand{
+    margin:0;
+    padding:0;
+    background-color: white;
+  }
+
+  .navbar-brand img{
+    width:40px;
+    height:40px;
+    object-fit:contain;
+    margin:0;
+    
+  }
+
+  .navbar-toggler{
+    margin:0;
+    padding:4px 8px;
+   
+  }
+
+  .navbar-collapse{
+    margin-top:10px;
+  }
+
+  .navbar-nav{
+    text-align:start;
+    background-color: white;
+    
+  }
+
+  .navbar-nav .nav-link{
+    padding:10px;
+    background-color: white;
+  }
+
+
+ .headline{
+      height:400px;
+      text-align:center;
+  }
+
+  .headline h3{
+      margin-top:120px;
+      font-size:35px;
+  }
+.model-images img{
+    width:100%;
+    max-width:200px;
+    height:auto;
+}
+
+.about_intro{
+      height:auto;
+      padding:60px 20px;
+      font-size:35px;
+      text-align:center;
+  }
+
+  .about_intro h3{
+      font-size:35px;
+  }
+
+   footer {
+    text-align: center;
+  }
+
+  footer h3,
+  footer h5 {
+    margin-top: 10px;
+  }
+
+  .lead {
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+.menubar .navbar-brand img {
+  object-fit: contain;
+}
+
+.cart-count {
+  font-size: 10px;
+}
+}

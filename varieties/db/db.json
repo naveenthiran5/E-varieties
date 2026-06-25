@@ -1,0 +1,177 @@
+{
+  "shoe": [
+    {
+      "id": "1",
+      "name": "The Allegra",
+      "blackstar": "3",
+      "rating": "121",
+      "price": "13,800.00",
+      "shoe_pic": "/assets/theallegra.webp",
+      "size": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "colors": {
+        "image1": "/assets/bootsage.webp",
+        "image2": "/assets/winter-boots-city-black.webp",
+        "image3": "/assets/bootindigo.webp",
+        "image4": "/assets/theallegra.webp"
+      }
+    },
+    {
+      "id": "2",
+      "name": "The weekend Boot in sage",
+      "blackstar": "9",
+      "rating": "121",
+      "price": "13,800.00",
+      "shoe_pic": "/assets/bootsage.webp",
+      "size": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "colors": {
+        "image1": "/assets/winter-boots-city-black.webp",
+        "image2": "/assets/bootindigo.webp",
+        "image3": "/assets/theallegra.webp",
+        "image4": "/assets/bootsage.webp"
+      }
+    },
+    {
+      "id": "3",
+      "name": "The Weekend Boot Z in Black",
+      "blackstar": "14",
+      "rating": "33",
+      "price": "14,600.00",
+      "shoe_pic": "/assets/winter-boots-city-black.webp",
+      "size": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "colors": {
+        "image1": "/assets/bootindigo.webp",
+        "image2": "/assets/theallegra.webp",
+        "image3": "/assets/bootsage.webp",
+        "image4": "/assets/winter-boots-city-black.webp"
+      }
+    },
+    {
+      "id": "4",
+      "name": "The Weekend Boot in indigo",
+      "blackstar": "14",
+      "rating": "121",
+      "price": "13,800.00",
+      "shoe_pic": "/assets/bootindigo.webp",
+      "size": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "colors": {
+        "image1": "/assets/theallegra.webp",
+        "image2": "/assets/bootsage.webp",
+        "image3": "/assets/winter-boots-city-black.webp",
+        "image4": "/assets/bootindigo.webp"
+      }
+    }
+  ],
+  "cart": [
+    {
+      "shoeId": "2",
+      "name": "The weekend Boot in sage",
+      "price": "13,800.00",
+      "size": "6",
+      "image": "/assets/bootsage.webp",
+      "quantity": 1,
+      "id": "7f4GhQuXg28"
+    },
+    {
+      "shoeId": "3",
+      "name": "The Weekend Boot Z in Black",
+      "price": "14,600.00",
+      "size": "8",
+      "image": "/assets/winter-boots-city-black.webp",
+      "quantity": 1,
+      "id": "m6q8e9iXcXY"
+    }
+  ],
+  "orders": [
+    {
+      "shoeId": "1",
+      "name": "The Allegra",
+      "price": "13,800.00",
+      "size": "7",
+      "image": "/assets/theallegra.webp",
+      "customer_name": "Veeraragavan ss",
+      "mobile": "8682959325",
+      "address": "18/92, Cmr Road, Chinnakanmai, Madurai-9\n",
+      "id": "0x18RBjqX_c"
+    },
+    {
+      "shoeId": "4",
+      "name": "The Weekend Boot in indigo",
+      "price": "13,800.00",
+      "size": "7",
+      "image": "/assets/winter-boots-city-black.webp",
+      "customer_name": "raja",
+      "mobile": "8689593250",
+      "address": "18/92, Cmr Road, Chinnakanmai, Madurai-9\n",
+      "id": "XFJtnRqhFyc"
+    },
+    {
+      "shoeId": "2",
+      "name": "The weekend Boot in sage",
+      "price": "13,800.00",
+      "size": "8",
+      "image": "/assets/theallegra.webp",
+      "customer_name": "kishore",
+      "mobile": "9876543210",
+      "address": "7A,kavipuram,madurai.",
+      "id": "vzUo5IUbE1I"
+    },
+    {
+      "shoeId": "1",
+      "name": "The Allegra",
+      "price": "13,800.00",
+      "size": "7",
+      "image": "/assets/theallegra.webp",
+      "customer_name": "Vishnu",
+      "mobile": "9876543210",
+      "address": "Madurai.",
+      "id": "HlPIB8cN8VA"
+    },
+    {
+      "shoeId": "1",
+      "name": "The Allegra",
+      "price": "13,800.00",
+      "size": "7",
+      "image": "/assets/winter-boots-city-black.webp",
+      "customer_name": "Vijay",
+      "mobile": "9876543210",
+      "address": "chennai",
+      "id": "4zm7JjXkAi0"
+    },
+    {
+      "shoeId": "1",
+      "name": "The Allegra",
+      "price": "13,800.00",
+      "size": "6",
+      "image": "/assets/winter-boots-city-black.webp",
+      "customer_name": "vijay",
+      "mobile": "9876543210",
+      "address": "madurai.",
+      "id": "78eUK4H76n8"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
