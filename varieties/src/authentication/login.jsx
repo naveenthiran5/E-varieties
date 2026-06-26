@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import Menubar from './Menubar'
-import Footer from '../Footer'
+import Menubar from '../Menubar.jsx'
+import Footer from '../Footer.jsx'
 
 function Login() {
   const navigate = useNavigate();

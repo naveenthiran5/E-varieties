@@ -1,6 +1,6 @@
 import React from 'react'
-import Menubar from '/Menubar'
-import Footer from './Footer'
+import Menubar from './Menubar.jsx'
+import Footer from './Footer.jsx'
 
 
 function Aboutus() {
