@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
-import Menubar from '../Menubar'
+import Menubar from './Menubar'
 import Footer from '../Footer'
 
 function Login() {
@@ -38,22 +38,22 @@ function Login() {
 
   return (
     <div>
-        <div>
-            <Menubar/>
-        </div>
-        <div className='login'>
-            <form onSubmit={handleSubmit}>
-                <h3>Login</h3>
-                <input type="mail" name='email' id='email' placeholder='Email' required/><br />
-                <input type="password" name="password" id="password" placeholder='Password' required/><br />
-                <a href="#" className='forget'>Forget password</a>
-                <button type='submit' className='btn btn-dark'>Login</button>
-            </form>
-            <a href={'/register'} className='create'>Create account</a>
-        </div>
-        <div>
-            <Footer/>
-        </div>
+      <div>
+        <Menubar />
+      </div>
+      <div className='login'>
+        <form onSubmit={handleSubmit}>
+          <h3>Login</h3>
+          <input type="mail" name='email' id='email' placeholder='Email' required /><br />
+          <input type="password" name="password" id="password" placeholder='Password' required /><br />
+          <a href="#" className='forget'>Forget password</a>
+          <button type='submit' className='btn btn-dark'>Login</button>
+        </form>
+        <a href={'/register'} className='create'>Create account</a>
+      </div>
+      <div>
+        <Footer />
+      </div>
     </div>
   )
 }
